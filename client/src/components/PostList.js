@@ -16,7 +16,7 @@ const PostList = (props) => {
         <TextField source='id' />
         <TextField source='title' />
         <DateField source='publishedAt' />
-        {/* Edit knows it'll be a PUT req to /api/posts/:id - no need to specify */}
+        {/* Edit/Delete knows it'll be a PUT/DEL req to /api/posts/:id - no need to specify */}
         <EditButton basePath='/posts' />
         <DeleteButton basePath='/posts' />
       </Datagrid>

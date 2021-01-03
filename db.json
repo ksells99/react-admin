@@ -3,7 +3,7 @@
     {
       "id": "1",
       "title": "Post one",
-      "body": "This is the first post body",
+      "body": "This is the first post body NEW",
       "publishedAt": "2021-01-03"
     },
     {
@@ -11,13 +11,19 @@
       "title": "Post two",
       "body": "This is the second post body",
       "publishedAt": "2021-01-03"
+    },
+    {
+      "title": "Post four",
+      "body": "This is the post four body",
+      "publishedAt": "2021-01-04",
+      "id": "VgAXKgb"
     }
   ],
   "users": [
     {
-      "id": "1",
-      "name": "John Doe",
-      "email": "john@example.com"
+      "name": "Sam Smith",
+      "email": "sam@example.com",
+      "id": "wYbrpJB"
     }
   ]
 }
